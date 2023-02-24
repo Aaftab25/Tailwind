@@ -5,6 +5,9 @@
 .btn{
     @apply text-center w-11/12 m-2 p-2 border-2 border-sky-900 bg-green-400 rounded-3xl text-white text-xl font-bold;
 }
+.outline_btn{
+    @apply border-2 p-3 rounded-3xl text-cyan-300 border-cyan-300 hover:bg-cyan-500 hover:text-white hover:border-white;
+}
 
 @tailwind utilities;
 
@@ -12,4 +15,5 @@ h1{
     @apply font-semibold text-3xl pb-3;
 
 }
+
 

@@ -5,32 +5,32 @@
   <meta charset="UTF-8" />
   <link rel="icon" type="image/svg+xml" href="/vite.svg" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Vite App</title>
+  <title>Shop Anithing</title>
 </head>
-
-<body class="bg-sky-300">
+ 
+<body>
   <header>
     <div>
-      <nav class="h-24 bg-gray-700 ">
+      <nav class="h-26 bg-gray-500 ">
         <div class="container mx-auto text-white p-10">
           <div class="sm:px-6 flex justify-between">
             <div>
 
-              <ul class="flex text-lg">
-                <li class="mr-10">
-                  <a href="#"><span class="bg-gray-900 p-5 rounded-lg">Home</span></a>
+              <ul class="flex text-xl ">
+                <li class="mr-10 ">
+                  <a href="#"><span class="hover:bg-amber-600 p-4 rounded-lg">Home</span></a>
                 </li>
                 <li class="mr-10">
-                  <a href="#"><span class="">About</span></a>
+                  <a href="#"><span class="hover:bg-amber-600 p-4 rounded-lg">About</span></a>
                 </li>
                 <li class="mr-10">
-                  <a href="#"><span class="">contact</span></a>
+                  <a href="#"><span class="hover:bg-amber-600 p-4 rounded-lg">contact</span></a>
                 </li>
               </ul>
             </div>
-            <div class="text-lg">
-              <a href="#" class="mr-4">Log in</a>
-              <a href="#">sign up</a>
+            <div class="text-xl">
+              <a href="#" class="mr-6 border-2 p-3 rounded-3xl     bg-cyan-500 text-white hover:border-white ">Log in</a>
+              <a href="#" class="border-2 p-3 rounded-3xl text-cyan-300 border-cyan-300 hover:bg-cyan-500 hover:text-white hover:border-white">sign up</a>
             </div>
           </div>
 
@@ -42,29 +42,35 @@
     
     <main> 
       
-      <div class="container mx-auto flex flex-wrap  bg-slate-300 w-full p-24 m-28 rounded-lg text-gray-800">
-        
-        <div class="w-96 ml-48 bg-cyan-700 rounded-lg border-4 border-7-sky-900">
+      <div class="container mx-auto   bg-slate-200 w-full p-10 m-28 rounded-lg text-gray-800">
+       
+       <div class="text-center pb-24">
+        <h1 class="text-7xl text-indigo-600 font-medium">Welcome</h1>
+       </div> 
+        <div class="flex flex-wrap pb-24">
+        <div class="w-96 ml-56  bg-white border-2 border-neutral-500 shadow-2xl rounded-lg">
           <div class="p-6 spce-y-4" >
             <h1 class="text-xl font-bold leading-tight tracking-tight text-gray-900 md:text-2xtext-white">
               Sign in to your account
             </h1>
             <div>
               <label for="email" class="block mb-2 text-sm font-medium mt-5"> Username</label>
-              <input type="text" name="user"   placeholder="Enter Your Username"  class="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
+              <input type="text" name="user"   placeholder="Enter Your Username"  class="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-xl focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
             </div>
             <div>
               <label for="email" class="block mb-2 text-sm font-medium mt-5"> Password</label>
-              <input type="text" name="pas"   placeholder=" Enter Your Password"  class="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
+              <input type="text" name="pas"   placeholder=" Enter Your Password"  class="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-xl focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
             </div>
-            <button type="submit" class="w-full mt-10 text-white bg-orange-500 hover:bg-primary-700 focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm  py-2.5 text-center ">Sign in</button>
+            <button type="submit" class="w-full mt-10 text-white bg-orange-500 hover:bg-primary-700 focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm  py-2.5 text-center ">
+             <a href="/home.html">Sign in</a> 
+            </button>
           </div>
         </div>
-          <div>
-            <img src="https://media.istockphoto.com/id/1254508881/photo/woman-holding-sale-shopping-bags-consumerism-shopping-lifestyle-concept.jpg?s=612x612&w=0&k=20&c=wuS3z6nPQkMM3_wIoO67qQXP-hfXkxlBc2sedwh-hxc=" alt="">
+          <div class="ml-20 ">
+            <img src="public/shopping.jpg" class="h-96 shadow-lg lg:w-full md:w-48 sm:d-none" alt="shop">
           </div>
         
-       
+        </div>
       </div>
     </main>
   </div>
